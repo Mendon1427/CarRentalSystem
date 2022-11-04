@@ -28,10 +28,6 @@ public class CarRentalApplication{
 	public static void main(String[] args) {
 
 		SpringApplication.run(CarRentalApplication.class, args);
-//		LocalDate date=LocalDate.parse("11-01-2022");
-//		LocalDate date1=LocalDate.parse("11-03-2022");
-//
-//		System.out.println(date1.getDayOfMonth()-date.getDayOfMonth());
 	}
 
 //	@Override
@@ -71,14 +67,4 @@ public class CarRentalApplication{
 //rentRepo.save(rent2);
 //rentRepo.save(rent3);
 //rentRepo.save(rent4);
-
-//public class getRent{
-//	public static void main(String[] args) {
-//
-//	}
-//
-//}
-
-
-
 }

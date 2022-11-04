@@ -94,26 +94,6 @@ public class RentController {
         return "redirect:/rent";
     }
 
-//    @GetMapping("/rentCar/{price}")
-//    public String rentCar(@PathVariable("price") String price){
-//////        carrepo.deleteById(reg_no);
-////        rentrepo.
-//        return "redirect:/car";
-//    }
-
-//    @GetMapping("/saveRent")
-//    public String saveRent(Model model){
-//        Rent rent = new Rent();
-//        model.addAttribute("rents",rent);
-//        return "add_rental";
-//    }
-//
-//    @PostMapping("/saverent")
-//    public String save(@ModelAttribute("cars") Rent rent){
-//        rentrepo.save(rent);
-//        return "redirect:/rent";
-//    }
-
     @GetMapping("/deleteRent/{rental_id}")
     public String deleteRent(@PathVariable("rental_id") Integer rental_id){
         rentrepo.deleteById(rental_id);
